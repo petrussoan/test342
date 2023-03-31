@@ -1,4 +1,4 @@
-game:GetService("MarketplaceService"):UserOwnsGamePassAsync(Player.UserId, 19171226)
+ModIDS = game:GetService("MarketplaceService"):UserOwnsGamePassAsync(Player.UserId, 19171226)
 
 
 
