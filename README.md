@@ -4,7 +4,7 @@ ModIDS = game:GetService("MarketplaceService"):UserOwnsGamePassAsync(Player.User
 
 function swagnames()
     for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-        if table.find(ModIDS, Player.UserId) then
+        if table.find(ModIDS) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('nigger')
